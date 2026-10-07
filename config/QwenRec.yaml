@@ -37,7 +37,7 @@ seed: 2023
 
 # # Logging - disable tensorboard to avoid disk quota
 tensorboard: false
-# checkpoint_dir: /scratch/satyamk_iitp/checkpoints
+# checkpoint_dir: ./checkpoints
 
 # Evaluation
 metrics: ['Recall', 'NDCG']
